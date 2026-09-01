@@ -1,0 +1,466 @@
+[
+    {
+        "estado": "MG",
+        "cidade": "ARAGUARI",
+        "endereco": "AV. SEN MELO VIANA , 135 ARAGUARI, MG null",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 08:0 ás 12:00 - DOM: Fechado",
+        "telefone": "(034) 35121231",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AV.%20SEN%20MELO%20VIANA%20%2C%20135%20ARAGUARI%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "ARAGUARI",
+        "endereco": "AV TIRADENTES, 32 ARAGUARI, MG 38440-238",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 08:30 ás 13:00 - DOM: Fechado",
+        "telefone": "(034) 35133343",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AV%20TIRADENTES%2C%2032%20ARAGUARI%20MG%2038440-238"
+    },
+    {
+        "estado": "MG",
+        "cidade": "ARAXA",
+        "endereco": "R. Almeida Campos, 215 ARAXA, MG 38183-222",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 12:00 - DOM: Fechado",
+        "telefone": "(034)36129050",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=R.%20Almeida%20Campos%2C%20215%20ARAXA%20MG%2038183-222"
+    },
+    {
+        "estado": "MG",
+        "cidade": "ARAXA",
+        "endereco": "AV WASHINGTON BARCELOS, 755 ARAXA, MG null",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 13:00 - DOM: Fechado",
+        "telefone": "(34) 998090410",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AV%20WASHINGTON%20BARCELOS%2C%20755%20ARAXA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "CAMPINA VERDE",
+        "endereco": "AVENIDA 11, 768 CAMPINA VERDE, MG 38270-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3412-1105",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AVENIDA%2011%2C%20768%20CAMPINA%20VERDE%20MG%2038270-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "CARMO DO PARANAIBA",
+        "endereco": "AVENIDA ZERO ARISTIDES DE MELO, 569 CARMO DO PARANAIBA, MG 38840-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3851-1305",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AVENIDA%20ZERO%20ARISTIDES%20DE%20MELO%2C%20569%20CARMO%20DO%20PARANAIBA%20MG%2038840-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "CARMO DO PARANAIBA",
+        "endereco": "RUA GOVERNADOR VALADARES, 573 CARMO DO PARANAIBA, MG 38740-000",
+        "horario": "SEG A SEX: 08:30 ás 18:00 - SAB: 08:30 ás 12:00 - DOM: Fechado",
+        "telefone": "3438512001",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20GOVERNADOR%20VALADARES%2C%20573%20CARMO%20DO%20PARANAIBA%20MG%2038740-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "CARNEIRINHO",
+        "endereco": "RUA DOUTOR ULYSSES GUIMARAES, 1258 CARNEIRINHO, MG 38290-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3454-1339",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20DOUTOR%20ULYSSES%20GUIMARAES%2C%201258%20CARNEIRINHO%20MG%2038290-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "DIVINOPOLIS",
+        "endereco": "PRACA DO MERCADO, 401 DIVINOPOLIS, MG 35500-048",
+        "horario": "SEG A SEX: 08:30 ás 18:00 - SAB: 09:00 ás 12:00 - DOM: Fechado",
+        "telefone": "0800 000 5959",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=PRACA%20DO%20MERCADO%2C%20401%20DIVINOPOLIS%20MG%2035500-048"
+    },
+    {
+        "estado": "MG",
+        "cidade": "FRANCA",
+        "endereco": "Av. Rio Negro, 1100 FRANCA, MG null",
+        "horario": "SEG A SÁB 10:00 ás 22:00 - DOM: 14:00 ÁS 20:00",
+        "telefone": "(016) 37111302",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Rio%20Negro%2C%201100%20FRANCA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "ITAPAGIPE",
+        "endereco": "AVENIDA 9, 498 ITAPAGIPE, MG 38240-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3424-3200",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AVENIDA%209%2C%20498%20ITAPAGIPE%20MG%2038240-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "ITAUNA",
+        "endereco": "R MELO VIANA, 05 ITAUNA, MG 35680-048",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 13:00 - DOM: Fechado",
+        "telefone": "037 3204-1168",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=R%20MELO%20VIANA%2C%2005%20ITAUNA%20MG%2035680-048"
+    },
+    {
+        "estado": "MG",
+        "cidade": "ITUIUTABA",
+        "endereco": "R Vinte e Quatro , 945 B ITUIUTABA, MG 38300-078",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00ás 13:00 - DOM: Fechado",
+        "telefone": "(034) 32689800",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=R%20Vinte%20%20e%20Quatro%20%2C%20945%20B%20ITUIUTABA%20MG%2038300-078"
+    },
+    {
+        "estado": "MG",
+        "cidade": "ITUIUTABA",
+        "endereco": "R VINTE , 888 ITUIUTABA, MG null",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "(034) 32684886",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=R%20VINTE%20%2C%20888%20ITUIUTABA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "ITURAMA",
+        "endereco": "AVENIDA CAMPINA VERDE, 1359 ITURAMA, MG 38280-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3411-5050",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AVENIDA%20CAMPINA%20VERDE%2C%201359%20ITURAMA%20MG%2038280-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "LAGAMAR",
+        "endereco": "RUA AMAZONAS,118 LAGAMAR, MG 38785-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3812-1838",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20AMAZONAS%2C118%20LAGAMAR%20MG%2038785-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "LAGOA FORMOSA",
+        "endereco": "RUA EURIPEDES RIBEIRO, 954 LAGOA FORMOSA, MG 38720-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3824-0356",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20EURIPEDES%20RIBEIRO%2C%20954%20LAGOA%20FORMOSA%20MG%2038720-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "LAGOA GRANDE",
+        "endereco": "AVENIDA SANTOS DUMONT, 824 LAGOA GRANDE, MG 38755-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3816-1000",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AVENIDA%20SANTOS%20DUMONT%2C%20824%20LAGOA%20GRANDE%20MG%2038755-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "NOVA PONTE",
+        "endereco": "RUA ORDALIA CARNEIRO DE OLIVEIRA, 188 NOVA PONTE, MG null",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3356-3895",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20ORDALIA%20CARNEIRO%20DE%20OLIVEIRA%2C%20188%20NOVA%20PONTE%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "NOVA SERRANA",
+        "endereco": "Rua Coronel Martinho Ferreira do Amaral, nº 175, CEP: 35.519 NOVA SERRANA, MG null",
+        "horario": "SEG A SEX: 08:30 ás 19:00 - SAB: 08:30 ás 13:00 - DOM: Fechado",
+        "telefone": "(037) 32262600",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Rua%20Coronel%20Martinho%20Ferreira%20do%20Amaral%2C%20n%C2%BA%20175%2C%20CEP%3A%2035.519%20NOVA%20SERRANA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "NOVA SERRANA",
+        "endereco": "Rua Dimas Guimarães,362 NOVA SERRANA, MG 35520-012",
+        "horario": "SEG A SEX: 08:30 ás 18:00 - SAB: 08:30 ás 12:00 - DOM: Fechado",
+        "telefone": "(037) 32269100",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Rua%20Dimas%20Guimar%C3%A3es%2C362%20NOVA%20SERRANA%20MG%2035520-012"
+    },
+    {
+        "estado": "MG",
+        "cidade": "PARA DE MINAS",
+        "endereco": "PRAÇA PEDRO NESTOR, 422, CENTRO, PARA DE MINAS/MG PARA DE MINAS, MG null",
+        "horario": "SEG A SEX: 08:30 ás 18:30 - SAB: 08:30 ás 12:00 - DOM: Fechado",
+        "telefone": "(037) 996609119",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=PRA%C3%87A%20PEDRO%20NESTOR%2C%20422%2C%20CENTRO%2C%20PARA%20DE%20MINAS%2FMG%20PARA%20DE%20MINAS%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "PARA DE MINAS",
+        "endereco": "R Benedito Valadares 162 PARA DE MINAS, MG 35660-630",
+        "horario": "SEG A SEX: 08:30 ás 18:00 - SAB: 08:30 ás 12:00 - DOM: Fechado",
+        "telefone": "(037) 32315000",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=R%20Benedito%20Valadares%20162%20PARA%20DE%20MINAS%20MG%2035660-630"
+    },
+    {
+        "estado": "MG",
+        "cidade": "PATOS DE MINAS",
+        "endereco": "Av. Getúlio Vargas, 313 PATOS DE MINAS, MG 38700-128",
+        "horario": "SEG A SEX: 08:30 ás 18:00 - SAB: 08:30 ás 12:00 - DOM: Fechado",
+        "telefone": "(034) 38251200",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Get%C3%BAlio%20Vargas%2C%20313%20PATOS%20DE%20MINAS%20MG%2038700-128"
+    },
+    {
+        "estado": "MG",
+        "cidade": "PATOS DE MINAS",
+        "endereco": "Rua José de Santana.351, Centro PATOS DE MINAS, MG 38700-052",
+        "horario": "SEG A SEX: 08:30 ás 18:00 - SAB: 08:30 ás 12:00 - DOM: Fechado",
+        "telefone": "(034) 38211547",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Rua%20Jos%C3%A9%20de%20Santana.351%2C%20Centro%20PATOS%20DE%20MINAS%20MG%2038700-052"
+    },
+    {
+        "estado": "MG",
+        "cidade": "PERDIGAO",
+        "endereco": "AVENIDA DOM CRISTIANO, 371 PERDIGAO, MG 35545-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "037 3287-9918",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AVENIDA%20DOM%20CRISTIANO%2C%20371%20PERDIGAO%20MG%2035545-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "PRESIDENTE OLEGARIO",
+        "endereco": "RUA SANTA RITA, 67 PRESIDENTE OLEGARIO, MG 38750-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3811-1212",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20SANTA%20RITA%2C%2067%20PRESIDENTE%20OLEGARIO%20MG%2038750-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "RIO PARANAIBA",
+        "endereco": "RUA CAPITAO FRANKLIN DE CASTRO, 694 RIO PARANAIBA, MG 38810-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3855-2010",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20CAPITAO%20FRANKLIN%20DE%20CASTRO%2C%20694%20RIO%20PARANAIBA%20MG%2038810-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "SANTA JULIANA",
+        "endereco": "AVENIDA ENIO GONCALVES, 50 SANTA JULIANA, MG 38175-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3354-1532",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AVENIDA%20ENIO%20GONCALVES%2C%2050%20SANTA%20JULIANA%20MG%2038175-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "SAO FRANCISCO DE SALES",
+        "endereco": "RUA 09, 2159 SAO FRANCISCO DE SALES, MG 82600-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3413-1513",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%2009%2C%202159%20SAO%20FRANCISCO%20DE%20SALES%20MG%2082600-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "TUPACIGUARA",
+        "endereco": "RUA BUENO BRANDAO, 184 TUPACIGUARA, MG 38480-000",
+        "horario": "SEG A SEX: 08:30 ás 18:00 - SAB: 08:00 ás 13:00 - DOM: Fechado",
+        "telefone": "034 3281-9000",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20BUENO%20BRANDAO%2C%20184%20TUPACIGUARA%20MG%2038480-000"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERABA",
+        "endereco": "Av. Prudente de Morais, 470 UBERABA, MG 38026-250",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 12:00 - DOM: Fechado",
+        "telefone": "(034)33224400",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Prudente%20de%20Morais%2C%20470%20UBERABA%20MG%2038026-250"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERABA",
+        "endereco": "Rua João Dalacqua, 497 Beijo Flor UBERABA, MG null",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 12:00 - DOM: Fechado",
+        "telefone": "(034)33363278",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Rua%20Jo%C3%A3o%20%20Dalacqua%2C%20497%20Beijo%20Flor%20UBERABA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERABA",
+        "endereco": "Praça Henrique Kruger, 70, Centro Uberaba UBERABA, MG null",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 12:00 - DOM: Fechado",
+        "telefone": "(034)33124000",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a%20Henrique%20Kruger%2C%2070%2C%20Centro%20Uberaba%20UBERABA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERABA",
+        "endereco": "PC RUI BARBOSA, 300, ELVIRA SHOPPING, LOJA 03 UBERABA, MG 38010-240",
+        "horario": "SEG A SEX: 08:30 às 18:00 - SAB 08:30 às 12:00 - DOM: Fechado",
+        "telefone": "(034)33325000",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=PC%20RUI%20BARBOSA%2C%20300%2C%20ELVIRA%20SHOPPING%2C%20LOJA%2003%20UBERABA%20MG%2038010-240"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERABA",
+        "endereco": "Av. Santa Beatriz da Silva, 1501 UBERABA, MG null",
+        "horario": "SEG A SÁB 10:00 ás 22:00 - DOM: 14:00 ÁS 20:00",
+        "telefone": "(034) 33198405",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Santa%20Beatriz%20da%20Silva%2C%201501%20UBERABA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERLANDIA",
+        "endereco": "AV. Afonso Pena, 710 , centro , Uberlandia UBERLANDIA, MG 38400-710",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 08:30 ás 13:00 - DOM: Fechado",
+        "telefone": "(034) 32239085",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AV.%20Afonso%20Pena%2C%20710%20%2C%20centro%20%2C%20Uberlandia%20UBERLANDIA%20MG%2038400-710"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERLANDIA",
+        "endereco": "Av. Continental, 586 UBERLANDIA, MG null",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 12:00 - DOM: Fechado",
+        "telefone": "-34",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Continental%2C%20586%20UBERLANDIA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERLANDIA",
+        "endereco": "Rua: Advogado 160 Bairro: Jardim das Palmeiras UBERLANDIA, MG null",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 12:00 - DOM: Fechado",
+        "telefone": "(34)99",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Rua%3A%20Advogado%20160%20Bairro%3A%20Jardim%20das%20Palmeiras%20UBERLANDIA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERLANDIA",
+        "endereco": "Av. José Fonseca e Silva, 618 Loja 2, Luizote de Freitas 38414 UBERLANDIA, MG 38414-348",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 08:30 ás 13:00 - DOM: Fechado",
+        "telefone": "(034) 32360033",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Jos%C3%A9%20Fonseca%20e%20Silva%2C%20618%20Loja%202%2C%20Luizote%20de%20Freitas%20%2038414%20UBERLANDIA%20MG%2038414-348"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERLANDIA",
+        "endereco": "Av. João Naves de Ávila, 1331 UBERLANDIA, MG null",
+        "horario": "SEG A SÁB 10:00 ás 22:00 - DOM: 14:00 ÁS 20:00",
+        "telefone": "(034) 32559824",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Jo%C3%A3o%20Naves%20de%20%C3%81vila%2C%201331%20UBERLANDIA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERLANDIA",
+        "endereco": "Av. João Pinheiro, 1154 UBERLANDIA, MG null",
+        "horario": "SEG A SEX: 08:00 ás 20:00 - SAB: 08:00 ás 18:00 - DOM: Fechado",
+        "telefone": "(034) 32564807",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Jo%C3%A3o%20Pinheiro%2C%201154%20UBERLANDIA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "UBERLANDIA",
+        "endereco": "Av. Paulo Gracindo, 15 UBERLANDIA, MG null",
+        "horario": "SEG A SÁB 10:00 ás 22:00 - DOM: 14:00 ÁS 20:00",
+        "telefone": "(034) 32256867",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Paulo%20Gracindo%2C%2015%20UBERLANDIA%20MG%20"
+    },
+    {
+        "estado": "MG",
+        "cidade": "VAZANTE",
+        "endereco": "RUA PEREIRA GUIMARAES, 650 VAZANTE, MG 38780-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "034 3813-1105",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20PEREIRA%20GUIMARAES%2C%20650%20VAZANTE%20MG%2038780-000"
+    },
+    {
+        "estado": "SP",
+        "cidade": "COSMOPOLIS",
+        "endereco": "R CAMPINAS, 811 COSMOPOLIS, SP 13150-000",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 12:00 - DOM: Fechado",
+        "telefone": "019 3800-1451",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=R%20CAMPINAS%2C%20811%20COSMOPOLIS%20SP%2013150-000"
+    },
+    {
+        "estado": "SP",
+        "cidade": "CRAVINHOS",
+        "endereco": "Av. Pedro Duarte Amoroso, 276 CRAVINHOS, SP 14140-000",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 13:00 - DOM: Fechado",
+        "telefone": "016 2122-2122",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Pedro%20Duarte%20Amoroso%2C%20276%20CRAVINHOS%20SP%2014140-000"
+    },
+    {
+        "estado": "SP",
+        "cidade": "FRANCA",
+        "endereco": "Rua Mosenhor Rosa, 1989, Centro FRANCA, SP 14400-670",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 13:00 - DOM: Fechado",
+        "telefone": "(016) 3711-1300 (016) 3711-1301",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Rua%20Mosenhor%20Rosa%2C%201989%2C%20Centro%20FRANCA%20SP%2014400-670"
+    },
+    {
+        "estado": "SP",
+        "cidade": "FRANCA",
+        "endereco": "Av. Brasil 1160 Bairro Vila Aparecida FRANCA, SP null",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 09:00 ás 13:00 - DOM: Fechado",
+        "telefone": "(16)999961670",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Brasil%201160%20Bairro%20Vila%20Aparecida%20FRANCA%20SP%20"
+    },
+    {
+        "estado": "SP",
+        "cidade": "IGARAPAVA",
+        "endereco": "PRAÇA RUI BARBOSA, 11 IGARAPAVA, SP 14540-000",
+        "horario": "SEG A SEX: 08:30 ás 18:00 - SAB: 08:30 ás 12:00 - DOM: Fechado",
+        "telefone": "3438239575",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=PRA%C3%87A%20RUI%20BARBOSA%2C%2011%20IGARAPAVA%20SP%2014540-000"
+    },
+    {
+        "estado": "SP",
+        "cidade": "ITUVERAVA",
+        "endereco": "AVENIDA JOSE ANIBAL SOARES OLIVEIRA, 93 ITUVERAVA, SP 14500-000",
+        "horario": "SEG A SEX: 08:30 ás 18:00 - SAB: 08:30 ás 12:00 - DOM: Fechado",
+        "telefone": "016 3839-1000",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=AVENIDA%20JOSE%20ANIBAL%20SOARES%20OLIVEIRA%2C%2093%20ITUVERAVA%20SP%2014500-000"
+    },
+    {
+        "estado": "SP",
+        "cidade": "MATAO",
+        "endereco": "RUA SAO LOURENCO, 1750 MATAO, SP 15990-060",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "016 3504-1700",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20SAO%20LOURENCO%2C%201750%20MATAO%20SP%2015990-060"
+    },
+    {
+        "estado": "SP",
+        "cidade": "SANTOS",
+        "endereco": "Av. Conselheiro Nébias, 447 SANTOS, SP null",
+        "horario": "SEG A SEX: 09:00 ás 12:00 e 14:00 às 18:00-  SAB: 09:00 ás 12:00 - DOM: Fechado",
+        "telefone": "013 30101212",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Av.%20Conselheiro%20N%C3%A9bias%2C%20447%20SANTOS%20SP%20"
+    },
+    {
+        "estado": "SP",
+        "cidade": "SAO CARLOS",
+        "endereco": "RUA VINTE E OITO DE SETEMBRO, 1.993 SALA 03 CENTRO CEP SAO CARLOS, SP 38420-000",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 09:00 ás 13:00 - DOM: Fechado",
+        "telefone": "016 3509-9561",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20VINTE%20E%20OITO%20DE%20SETEMBRO%2C%201.993%20SALA%2003%20CENTRO%20CEP%20SAO%20CARLOS%20SP%2038420-000"
+    },
+    {
+        "estado": "SP",
+        "cidade": "SAO JOAQUIM DA BARRA",
+        "endereco": "PRACA SETE DE SETEMBRO, 397 SAO JOAQUIM DA BARRA, SP 14600-000",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 08:30 ás 12:30 - DOM: Fechado",
+        "telefone": "016 3818-1000",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=PRACA%20SETE%20DE%20SETEMBRO%2C%20397%20SAO%20JOAQUIM%20DA%20BARRA%20SP%2014600-000"
+    },
+    {
+        "estado": "SP",
+        "cidade": "SAO JOSE DO RIO PRETO",
+        "endereco": "R APARECIDA DO TABOADO 2800 SAO JOSE DO RIO PRETO, SP 15043-100",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "017 3513 9370",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=R%20APARECIDA%20DO%20TABOADO%202800%20SAO%20JOSE%20DO%20RIO%20PRETO%20SP%2015043-100"
+    },
+    {
+        "estado": "GO",
+        "cidade": "ANAPOLIS",
+        "endereco": "RUA ENGENHEIRO PORTELA, 619 ANAPOLIS, GO 75023-085",
+        "horario": "SEG A SEX: 09:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "062 3771-4400",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=RUA%20ENGENHEIRO%20PORTELA%2C%20619%20ANAPOLIS%20GO%2075023-085"
+    },
+    {
+        "estado": "GO",
+        "cidade": "ITUMBIARA",
+        "endereco": "Rua Osvaldo Cruz, 151 Setor Rodoviario ITUMBIARA, GO 75516-020",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "(064) 34307400",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=Rua%20Osvaldo%20Cruz%2C%20151%20Setor%20Rodoviario%20ITUMBIARA%20GO%2075516-020"
+    },
+    {
+        "estado": "GO",
+        "cidade": "ITUMBIARA",
+        "endereco": "R PE FELIX, 1 ITUMBIARA, GO 75503-130",
+        "horario": "SEG A SEX: 08:00 ás 18:00 - SAB: 08:00 ás 12:00 - DOM: Fechado",
+        "telefone": "(064) 34041000",
+        "link_maps": "https://www.google.com/maps/search/?api=1&query=R%20PE%20FELIX%2C%201%20ITUMBIARA%20GO%2075503-130"
+    }
+]

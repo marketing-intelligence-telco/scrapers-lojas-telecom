@@ -1,0 +1,4 @@
+Run in this exact order
+generate_cities.py => this file generates the dados_algar.json with all cities with algar stores 
+algar_scrapper_v2.py => this file gets to generate capilaridade_algar.csv so we have all geolocation on algar stores 
+generate_excel.py => this file generates the final excel file.. ready to send 
