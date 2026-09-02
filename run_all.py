@@ -13,6 +13,10 @@ def executar_script(descricao, script_path):
     print(f"Working dir: {script_path.parent}")
     print(f"{'=' * 70}")
 
+    if not script_path.exists():
+        print(f"✖ Arquivo não encontrado: {script_path}")
+        return False
+
     try:
         # cwd = pasta do proprio script.
         # Isso faz o processo filho rodar como se voce tivesse feito 'cd' na pasta dele,
@@ -23,12 +27,10 @@ def executar_script(descricao, script_path):
             cwd=str(script_path.parent),
         )
         print(f"✔ {descricao} finalizado com sucesso.")
+        return True
     except subprocess.CalledProcessError as e:
         print(f"✖ Falha em {descricao} (código {e.returncode}).")
-        raise SystemExit(1)
-    except FileNotFoundError:
-        print(f"✖ Arquivo não encontrado: {script_path}")
-        raise SystemExit(1)
+        return False
 
 
 def main():
@@ -41,16 +43,26 @@ def main():
         ("Unifique", BASE_DIR / "unifique" / "unifique.py"),
     ]
 
-    for descricao, script_path in scripts:
-        if not script_path.exists():
-            print(f"✖ Script não encontrado para {descricao}: {script_path}")
-            raise SystemExit(1)
+    # Cada scraper e independente: a falha de um NAO interrompe os demais.
+    # As falhas sao acumuladas e reportadas no fim; o processo sai com codigo
+    # != 0 se qualquer scraper falhou (util para CI / agendador).
+    resultados = {
+        descricao: executar_script(descricao, script_path)
+        for descricao, script_path in scripts
+    }
 
-        executar_script(descricao, script_path)
+    ok = [d for d, sucesso in resultados.items() if sucesso]
+    falhas = [d for d, sucesso in resultados.items() if not sucesso]
 
     print(f"\n{'=' * 70}")
-    print("PROCESSO GLOBAL CONCLUÍDO: Claro → Vivo → TIM → Algar → Brisanet → Unifique")
+    print("RESUMO DO PROCESSO GLOBAL")
     print(f"{'=' * 70}")
+    print(f"✔ Sucesso ({len(ok)}): {', '.join(ok) if ok else '-'}")
+    print(f"✖ Falha   ({len(falhas)}): {', '.join(falhas) if falhas else '-'}")
+    print(f"{'=' * 70}")
+
+    if falhas:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

@@ -1,4 +1,7 @@
-import requests
+# curl_cffi imita o fingerprint TLS/JA3 de um browser real. O WAF da GoCache
+# do site da Unifique bloqueia (403 "Acesso Bloqueado") o handshake TLS padrao
+# do requests/urllib3; com impersonate="chrome" a requisicao passa normalmente.
+from curl_cffi import requests
 import sys
 import csv
 import json  # <--- NEW: JSON export support
@@ -9,6 +12,7 @@ import unidecode
 import pandas as pd
 import hashlib # <--- NEW: Imported library for hashing logic
 from pathlib import Path  # <--- FIX: paths ancorados no arquivo, nao no CWD
+from datetime import datetime  # <--- NEW: data de extracao para o nome do output
 
 # --- Desativar Avisos de SSL ---
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -21,6 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = BASE_DIR / 'output'
 DATA_DIR = BASE_DIR / 'data'
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)  # cria output/ se nao existir
+EXTRACTION_DATE = datetime.now().strftime("%Y-%m-%d")
 
 # --- Configuração da Requisição ---
 cookies = {
@@ -51,8 +56,8 @@ headers = {
 }
 
 url = 'https://unifique.com.br/atendimento/lojas'
-output_csv_file = OUTPUT_DIR / 'lojas_unifique.csv'
-output_json_file = OUTPUT_DIR / 'lojas_unifique.json'  # <--- NEW: JSON output path
+output_csv_file = OUTPUT_DIR / f"unifique_Capilaridade_{EXTRACTION_DATE}.csv"
+output_json_file = OUTPUT_DIR / f"unifique_Capilaridade_{EXTRACTION_DATE}.json"  # <--- NEW: JSON output path
 excel_ibge_file = DATA_DIR / 'Base_BR_IBGE.xlsx'
 
 re_pattern = re.compile(r'^(.*)\s*-\s*([a-zA-Z]{2})$')
@@ -60,7 +65,38 @@ re_pattern = re.compile(r'^(.*)\s*-\s*([a-zA-Z]{2})$')
 print(f"Enviando requisição para: {url}")
 
 try:
-    response = requests.get(url, cookies=cookies, headers=headers, verify=False)
+    response = requests.get(
+        url, headers=headers, impersonate="chrome", verify=False, timeout=30
+    )
+
+    # ------------------------------------------------------------------
+    # DIAGNÓSTICO DA RESPOSTA (antes do raise_for_status)
+    # Objetivo: quando der 403, ver EXATAMENTE o que o servidor devolveu
+    # em vez de só um traceback seco.
+    # ------------------------------------------------------------------
+    print("\n" + "-" * 60)
+    print(f"[DIAG] Status HTTP        : {response.status_code} {response.reason}")
+    print(f"[DIAG] URL final          : {response.url}")
+    print(f"[DIAG] Redirecionamentos  : {[r.status_code for r in response.history]}")
+    print(f"[DIAG] Tamanho do corpo   : {len(response.text)} bytes")
+    for h in ("Server", "CF-RAY", "X-Cache", "X-GoCache-Status", "Set-Cookie",
+              "Content-Type", "Retry-After", "X-Powered-By"):
+        if h in response.headers:
+            print(f"[DIAG] {h:<18}: {response.headers[h]}")
+
+    corpo = response.text
+    # So faz sentido procurar pagina de bloqueio quando a resposta NAO foi 200
+    # (a pagina legitima de lojas tem 2 MB e cita "cloudflare" num script).
+    if response.status_code != 200 or len(corpo) < 50_000:
+        marcadores_waf = ("Acesso Bloqueado", "gocache", "captcha", "cloudflare",
+                          "Attention Required", "Just a moment", "Access denied")
+        hit = [m for m in marcadores_waf if m.lower() in corpo.lower()]
+        if hit:
+            print(f"[DIAG] ⚠️  PÁGINA DE WAF/BLOQUEIO detectada (marcadores: {hit})")
+    print(f"[DIAG] Trecho do corpo    : {corpo[:400]!r}")
+    print(f"[DIAG] Cookies recebidos  : {response.cookies.get_dict()}")
+    print("-" * 60 + "\n", flush=True)
+
     response.raise_for_status()
 
     print(f"Requisição bem-sucedida (Status: {response.status_code})")

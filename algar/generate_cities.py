@@ -17,12 +17,17 @@ def extrair_mapeamento_e_lojas():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
     
+    # Sessão reutilizada para todas as requisições (mantém conexão e cookies)
+    session = requests.Session()
+    session.headers.update(headers)
+    session.verify = False
+
     # --- PASSO 1: Pegar o mapeamento de cidades diretamente do HTML ---
     url_lojas = "https://loja.algar.com.br/lojas"
     print(f"\n[INFO] 🌐 Acessando {url_lojas} silenciosamente via requests...")
-    
+
     try:
-        response_html = requests.get(url_lojas, headers=headers, verify=False)
+        response_html = session.get(url_lojas)
         response_html.raise_for_status()
     except Exception as e:
         print(f"[ERRO FATAL] ❌ Não foi possível acessar o site: {e}")

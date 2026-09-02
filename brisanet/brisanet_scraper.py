@@ -106,8 +106,10 @@ def search(obj, results):
 
 
 def acquire_page_data():
+    # verify=True: o alvo e um dominio do Google com cert valido; desabilitar
+    # TLS aqui so gerava InsecureRequestWarning repetido e sem motivo.
     response = requests.get(
-        MAP_URL, headers=REQUEST_HEADERS, timeout=60, verify=False
+        MAP_URL, headers=REQUEST_HEADERS, timeout=60
     )
     response.raise_for_status()
     match = re.search(
